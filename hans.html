@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio of Hans Salosensaari">
+    <meta name="author" content="Hans Salosensaari">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <title>Hans Salosensaari</title>
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
+</head>
+<body class="hans">
+    <a href="#main-content" id="skiplink">
+        Ohita navigaatio ja siirry sivun varsinaiseen sisältöön
+    </a>
+    <header>
+        <div id="skiptooltip" aria-hidden="true">Enter - Siirry sivun sisältöön</div>
+        <a id="logolink" href="/index.html" aria-label="Etusivu">
+            <img id="hanslogo" src="./images/HansLogo3.png"
+            alt="Hans Salosensaari logo, nimi kirjoitettu koristeellisella tekstillä">
+        </a>
+        <img id="hansheader" src="./images/Selfie.png" alt="Kuvassa Hans Salosensaari">
+        <div id="buttoncontainer" role="group" aria-label="Painikkeet pikanäppäinohjeisiin ja näppäinten hallintaan">
+            <button id="accesskeyhelp" aria-pressed="false">Pikanäppäinohjeet</button>
+            <button id="accesskeyswitch">Kytke pikanäppäimet pois käytöstä</button>
+        </div>
+    </header>
+    <nav aria-label="Navigaatio sivuston eri sivujen välillä">
+        <ul>
+            <li id="index"><a id="indexlink" href="/index.html">Etusivu</a></li>
+            <li id="hans"><a id="hanslink" href="/hans.html">Hans Salosensaari</a></li>
+            <li id="osaaminen"><a id="osaaminenlink" href="/osaaminen.html">Osaaminen</a></li>
+            <li id="saavutettavuus"><a id="saavutettavuuslink" href="/saavutettavuus.html">Saavutettavuus</a></li>
+        </ul>
+    </nav>
+    <article id="accesskeyarticle" aria-label="Ohjeita pikanäppäinten käytöstä">
+        <h2>Ohjeita pikanäppäinten käyttöön</h2>
+        <p>Voit liikkua sivuston sivujen välillä seuraavilla pikanäppäimillä.
+            Huomaa, että verkkoselain vaatii näppäinyhdistelmän käyttöä, jotta pikanäppäimet toimivat.<br>
+        </p>
+        <p>
+            Google Chromessa ja Microsoft Edgessä käytä näppäinyhdistelmää Alt + pikanäppäin.<br>
+            Firefoxissa käytä näppäinyhdistelmää Alt + Shift + pikanäppäin.<br>
+            MacOS-käyttöjärjestelmällä käytä selaimesta riippumatta näppäinyhdistelmää Control + Option + pikanäppäin.
+        </p>
+        <ul>
+            <li>M - Ohita navigaatio ja siirry sivun varsinaiseen sisältöön</li>
+            <li>L - Sivun ylälaidan logoon upotettu linkki, joka vie etusivulle</li>
+            <li>P - Avaa ja sulje pikanäppäinohjeet</li>
+            <li>K - Kytke pikanäppäimet pois käytöstä tai takaisin käyttöön.
+                Toimii vaikka pikanäppäimet olisi kytketty pois käytöstä.
+            </li>
+            <li>E - Siirry sivulle Etusivu</li>
+            <li>H - Siirry sivulle Hans Salosensaari</li>
+            <li>O - Siirry sivulle Osaaminen</li>
+            <li>S - Siirry sivulle Saavutettavuus</li>
+        </ul>
+    </article>
+    <section class="content" aria-label="Sivun osa, jossa on sivun varsinainen sisältö">
+        <img id="hansmain" src="./images/Selfie.png" alt="Kuvassa Hans Salosensaari">
+        <main id="main-content" tabindex="-1">
+            <h1>Kuka on Hans Salosensaari?</h1>
+            <p>
+                Olen porilainen kolmekymppinen moniosaaja. Tälle sivulle kerääntyy
+                yleisluonteista tietoa minusta.
+            </p>
+            <h2>Koulutus</h2>
+            <ul>
+                <li>Tieto- ja viestintätekniikan insinööri 2024-></li>
+                <li>Kirkon nuorisotyönohjaajan virkakelpoisuus 2023</li>
+                <li>Sosionomi (AMK) diakoni 2017</li>
+                <li>Ylioppilas 2011</li>
+            </ul>
+            <h2>Työhistoria</h2>
+            <ul>
+                <li>Nuorisotyönohjaaja, Länsi-Porin seurakunta, 2018-></li>
+                <li>Menekinedistäjä, Markkinointitoimisto Johdin Oy, 2013-2019</li>
+                <li>Nuorisotyönohjaaja, Porin Teljän seurakunta, 2016-2017</li>
+                <li>Myyntineuvottelija, Mediapex Oy/Buusteri Oy, 2010-2013</li>
+                <li>Lisäksi sekalainen kattaus seurakunnan leirityötä, menekinedistystä
+                    ja sosionomiopintoihin kuuluvia harjoitteluja vuosina 2008-2017
+                </li>
+            </ul>
+            <h2>Harrastukset</h2>
+            <ul>
+                <li>Musiikki: pääsoittimena kitara vuodesta 2005, kokemusta myös studiotyöskentelystä</li>
+                <li>Elektroninen urheilu: Virtual Racing, päälajit Gran Turismo 7 ja Assetto Corsa</li>
+                <li>Liikunta: kehonpainoharjoittelu</li>
+                <li>Asioista innostuminen ja niihin kyllästyminen</li>
+            </ul>
+        </main>
+    </section>
+    <footer>
+        <p class="footertext">© Hans Salosensaari</p>
+        <p class="footertext">hans.salosensaari@student.lab.fi</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

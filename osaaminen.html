@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio of Hans Salosensaari">
+    <meta name="author" content="Hans Salosensaari">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <title>Hans Salosensaaren osaaminen</title>
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
+</head>
+<body class="osaaminen">
+    <a href="#main-content" id="skiplink">Ohita navigaatio ja siirry sivun varsinaiseen sisältöön</a>
+    <header>
+        <div id="skiptooltip" aria-hidden="true">Enter - Siirry sivun sisältöön</div>
+        <a id="logolink" href="/index.html" aria-label="Etusivu">
+            <img id="hanslogo" src="./images/HansLogo3.png"
+            alt="Hans Salosensaari logo, nimi kirjoitettu koristeellisella tekstillä">
+        </a>
+        <img id="hansheader" src="./images/Selfie.png" alt="Kuvassa Hans Salosensaari">
+        <div id="buttoncontainer" role="group" aria-label="Painikkeet pikanäppäinohjeisiin ja näppäinten hallintaan">
+            <button id="accesskeyhelp" aria-pressed="false">Pikanäppäinohjeet</button>
+            <button id="accesskeyswitch">Kytke pikanäppäimet pois käytöstä</button>
+        </div>
+    </header>
+    <nav aria-label="Navigaatio sivuston eri sivujen välillä">
+        <ul>
+            <li id="index"><a id="indexlink" href="/index.html">Etusivu</a></li>
+            <li id="hans"><a id="hanslink" href="/hans.html">Hans Salosensaari</a></li>
+            <li id="osaaminen"><a id="osaaminenlink" href="/osaaminen.html">Osaaminen</a></li>
+            <li id="saavutettavuus"><a id="saavutettavuuslink" href="/saavutettavuus.html">Saavutettavuus</a></li>
+        </ul>
+    </nav>
+    <article id="accesskeyarticle" aria-label="Ohjeita pikanäppäinten käytöstä">
+        <h2>Ohjeita pikanäppäinten käyttöön</h2>
+        <p>Voit liikkua sivuston sivujen välillä seuraavilla pikanäppäimillä.
+            Huomaa, että verkkoselain vaatii näppäinyhdistelmän käyttöä, jotta pikanäppäimet toimivat.<br>
+        </p>
+        <p>
+            Google Chromessa ja Microsoft Edgessä käytä näppäinyhdistelmää Alt + pikanäppäin.<br>
+            Firefoxissa käytä näppäinyhdistelmää Alt + Shift + pikanäppäin.<br>
+            MacOS-käyttöjärjestelmällä käytä selaimesta riippumatta näppäinyhdistelmää Control + Option + pikanäppäin.
+        </p>
+        <ul>
+            <li>M - Ohita navigaatio ja siirry sivun varsinaiseen sisältöön</li>
+            <li>L - Sivun ylälaidan logoon upotettu linkki, joka vie etusivulle</li>
+            <li>P - Avaa ja sulje pikanäppäinohjeet</li>
+            <li>K - Kytke pikanäppäimet pois käytöstä tai takaisin käyttöön.
+                Toimii vaikka pikanäppäimet olisi kytketty pois käytöstä.
+            </li>
+            <li>E - Siirry sivulle Etusivu</li>
+            <li>H - Siirry sivulle Hans Salosensaari</li>
+            <li>O - Siirry sivulle Osaaminen</li>
+            <li>S - Siirry sivulle Saavutettavuus</li>
+        </ul>
+    </article>
+    <section class="content" aria-label="Sivun osa, jossa on sivun varsinainen sisältö">
+        <img id="hansmain" src="./images/Selfie.png" alt="Kuvassa Hans Salosensaari">
+        <main id="main-content" tabindex="-1">
+            <h1>Hans Salosensaaren osaaminen</h1>
+            <p>
+                Tälle sivulle kerään tietoteknistä osaamistani sitä mukaa, kun sitä kertyy.
+                Tältä sivulta löydät tietoa insinööriopintojen aikana suoritetuista
+                opintokokonaisuuksista sekä verkossa suorittamistani sertifikaateista.
+                Opinnoista mainitsen vain selkeästi tekniikkaan liittyvät kokonaisuudet.
+                
+            </p>
+            <h2>Insinööritutkintoon kuuluvat opintokokonaisuudet</h2>
+            <p>Pääset tutkimaan osana insinööritutkintoani suorittamiani opintoja lukukausittain
+                alla olevien ruutujen kautta.
+            </p>
+            <section class="card" tabindex="0" aria-label="Syksyn 2024 opinnot kokoava sivun osa">
+                <h2>Syksy 2024</h2>
+                <ul>
+                    <li>Digitaaliset sovellukset (5op), johdatus erilaisten ohjelmien, esim.
+                        Microsoft Office -ohjelmien käyttöön
+                    </li>
+                    <li>
+                        WWW-suunnittelun perusteet (5op), sisältönä HTML- ja CSS-kielet
+                        (myös SASS)
+                    </li>
+                    <li>
+                        Tietoliikenteen ja tietoturvan perusteet (5op), sisältönä mm.
+                        verkkoteknologia, lähiverkot ja tietoturva
+                    </li>
+                    <li>
+                        Ohjelmoinnin perusteet (5op), sisältönä Python-ohjelmointikieli
+                    </li>
+                </ul>
+            </section>
+            <section class="card" tabindex="0" aria-label="Kevään 2025 opinnot kokoava sivun osa">
+                <h2>Kevät 2025</h2>
+                <ul>
+                    <li>
+                        IoT tiedonsiirtojärjestelmät ja valvonta (5op), sisältönä Ciscon
+                        CCNA1-kurssi eli tietoliikenne, verkkojen suunnittelu ja
+                        hallinta
+                    </li>
+                    <li>
+                        Oliot ja tietokannat (5op), sisältönä olio-ohjelmointi Pythonilla
+                        ja SQL-ohjelmointi
+                    </li>
+                    <li>
+                        WWW-interaktiivisuus, (5op), sisältönä JavaScript-ohjelmointi
+                    </li>
+                    <li>
+                        Ohjelmointikielet (5op), sisältönä C++ ja Java -kielet
+                    </li>
+                    <li>
+                        Palvelin- ja työasemavirtualisointi, sisältönä virtualisointi
+                        ja virtualisoitujen ympäristöjen käyttäminen
+                    </li>
+                </ul>
+            </section>
+            <section class="card" tabindex="0" aria-label="Syksyn 2025 opinnot kokoava sivun osa">
+                <h2>Syksy 2025</h2>
+                <ul>
+                    <li>
+                        IoT perusteet (5op), sisältönä IoT-järjestelmien toiminta
+                    </li>
+                    <li>
+                        IoT ja sulautetut järjestelmät (15op), sisältönä IoT-järjestelmät
+                        ja niiden suunnittelu
+                    </li>
+                    <li>
+                        Web- ja peliteknologia (15op), sisältönä Unity-pelimoottorin käyttö,
+                        Linux-käyttöjärjestelmät, PHP ja C# -kielet
+                    </li>
+                </ul>
+            </section>
+            <section class="card" tabindex="0" aria-label="Kevään 2026 opinnot kokoava sivun osa">
+                <h2>Kevät 2026</h2>
+                <p>Tulossa...</p>
+            </section>
+            <section class="card" tabindex="0" aria-label="Syksyn 2026 opinnot kokoava sivun osa">
+                <h2>Syksy 2026</h2>
+                <p>Tulossa...</p>
+            </section>
+            <section class="card" tabindex="0" aria-label="Kevään 2027 opinnot kokoava sivun osa">
+                <h2>Kevät 2027</h2>
+                <p>Tulossa...</p>
+            </section>
+            <section class="card" tabindex="0" aria-label="Syksyn 2027 opinnot kokoava sivun osa">
+                <h2>Syksy 2027</h2>
+                <p>Tulossa...</p>
+            </section>
+            <section class="card" tabindex="0" style="margin-bottom: 20vh;" aria-label="Muut opinto-/kurssisuoritukset kokoava sivun osa">
+                <h2>Sertifikaatit</h2>
+                <figure>
+                    <img src="./images/FCCHTMLCSSCert.png"
+                    alt="freeCodeCamp HTML- ja CSS-sertifikaatti">
+                    <figcaption>freeCodeCamp HTML- ja CSS-sertifikaatti</figcaption>
+                </figure>
+            </section>
+        </main>
+    </section>
+    <footer>
+        <p class="footertext">© Hans Salosensaari</p>
+        <p class="footertext">hans.salosensaari@student.lab.fi</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
